@@ -398,4 +398,85 @@ p {
 }
 .clients .review--right .review__img {
   margin-left: 45px;
+}
+
+.container__contact {
+  background: #7cc576;
+}
+
+.contact {
+  color: #fff;
+  text-align: center;
+}
+.contact__title {
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+.contact__btn {
+  background: #7cc576;
+  color: #fff;
+  padding: 25px 36px;
+  cursor: pointer;
+  border-radius: 36px;
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+.contact__btn:hover {
+  color: #7cc576;
+  background: #fff;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 60px;
+}
+.stack img {
+  height: 40px;
+  width: auto;
+}
+
+.container--footer {
+  background: #222;
+}
+
+.footer {
+  padding-block: 60px;
+}
+
+.copyright {
+  padding-block: 30px;
+  display: flex;
+  align-items: center;
+}
+.copyright p {
+  margin-right: 120px;
+  color: #777;
+}
+.copyright .social {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.copyright .tweeter:hover {
+  background: #00aced;
+}
+.copyright .facebook:hover {
+  background: #3b5998;
+}
+.copyright .pinterest:hover {
+  background: #cb2028;
+}
+.copyright .google:hover {
+  background: #da2713;
 }/*# sourceMappingURL=main.css.map */

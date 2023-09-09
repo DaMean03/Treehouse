@@ -1,0 +1,55 @@
+@use "../colors" as *;
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 60px;
+
+  img {
+    height: 40px;
+    width: auto;
+  }
+}
+
+.container--footer {
+  background: $primary;
+}
+
+.footer {
+  padding-block: 60px;
+}
+
+.copyright {
+  padding-block: 30px;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-right: 120px;
+    color: $secondary;
+  }
+
+  .social {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .tweeter:hover {
+    background: #00aced;
+  }
+  .facebook:hover {
+    background: #3b5998;
+  }
+  .pinterest:hover {
+    background: #cb2028;
+  }
+  .google:hover {
+    background: #da2713;
+  }
+}

@@ -6,6 +6,8 @@ import Relax from "./components/Relax";
 import Project from "./components/Project";
 import Culture from "./components/Culture";
 import Clients from "./components/Clients";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Project />
       <Culture />
       <Clients />
+      <Contact />
+      <Footer />
     </>
   );
 }
