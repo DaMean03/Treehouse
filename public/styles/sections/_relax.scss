@@ -1,0 +1,84 @@
+@use "../colors" as *;
+@use "../components/mixins" as *;
+
+.container--relax {
+  background-image: url("/images/relax.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.relax {
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+
+  .content {
+    max-width: 75%;
+  }
+
+  .gear {
+    background-color: #e9e9e9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+
+    img {
+      height: auto;
+      width: 400px;
+      position: absolute;
+      top: 50%;
+      right: -200px;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__title {
+    color: $white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 45px;
+
+    span {
+      color: $button;
+    }
+  }
+
+  &__desc {
+    color: $grey;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-bottom: 50px;
+
+    &__item {
+      color: $grey;
+      background-image: url("/images/checkmark.webp");
+      background-repeat: no-repeat;
+      padding-left: 60px;
+      padding-block: 7px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__btn {
+    @include button;
+  }
+}

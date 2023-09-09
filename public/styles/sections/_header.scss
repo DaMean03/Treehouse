@@ -1,0 +1,24 @@
+@use "../colors" as *;
+
+.header {
+  width: 100%;
+  max-width: 940px;
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin-left: 2rem;
+      color: $secondary;
+      font-weight: 500;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

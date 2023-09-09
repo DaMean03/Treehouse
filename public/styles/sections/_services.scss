@@ -1,0 +1,35 @@
+@use "../colors" as *;
+
+.services {
+  text-align: center;
+
+  &__title {
+    font-size: 3rem;
+    color: $primary;
+  }
+  &__desc {
+    font-size: 1.125rem;
+    color: $secondary;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+
+    .card {
+      img {
+        height: 50px;
+        width: auto;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-size: 1.125rem;
+        color: $primary;
+      }
+      p {
+        font-size: 0.875rem;
+        color: $secondary;
+      }
+    }
+  }
+}

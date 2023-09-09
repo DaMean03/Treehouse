@@ -1,0 +1,74 @@
+@use "../colors" as *;
+
+.container--project {
+  background-image: url("/images/project.webp");
+  background-repeat: no-repeat;
+  background-position: right -40% bottom 10%;
+}
+
+.project {
+  .title {
+    text-align: center;
+    margin-bottom: 90px;
+
+    &__header {
+      color: $primary;
+      font-size: 2rem;
+    }
+
+    &__desc {
+      color: $secondary;
+    }
+  }
+
+  .content {
+    width: 50%;
+
+    &__title {
+      color: $primary;
+      margin-bottom: 1.25rem;
+      font-weight: 700;
+    }
+    &__desc {
+      color: $secondary;
+      margin-bottom: 25px;
+    }
+    &__list {
+      list-style-type: none;
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-left: 10px;
+
+        &__text {
+          margin-left: 25px;
+
+          h4 {
+            color: $primary;
+            font-weight: 700;
+          }
+          p {
+            color: $secondary;
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+    &__summary {
+      color: $secondary;
+      margin-top: 25px;
+    }
+    &__details {
+      a {
+        color: $button;
+        font-family: "Roboto", sans-serif;
+      }
+      color: $button;
+      margin-top: 30px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

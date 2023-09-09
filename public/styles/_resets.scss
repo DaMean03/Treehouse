@@ -1,0 +1,40 @@
+/*
+    RESETS
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+  border: none;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}

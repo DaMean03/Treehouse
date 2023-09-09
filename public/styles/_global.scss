@@ -1,0 +1,32 @@
+/*
+    GLOBAL STYLES
+*/
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  width: 100%;
+  max-width: 940px;
+  padding-block: 100px;
+}
+
+p {
+  font-family: "Merriweather", serif;
+}

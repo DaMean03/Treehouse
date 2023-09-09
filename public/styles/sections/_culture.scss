@@ -1,0 +1,54 @@
+@use "../colors" as *;
+
+.container--culture {
+  background: #f9f9f9;
+}
+
+.culture {
+  .title {
+    text-align: center;
+    margin-bottom: 90px;
+
+    &__header {
+      color: $primary;
+      font-size: 2rem;
+    }
+
+    &__desc {
+      color: $secondary;
+    }
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+    img[src="images/line.webp"] {
+      margin-inline: 3rem;
+    }
+  }
+
+  .texts {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__title {
+        color: $primary;
+        margin-bottom: 20px;
+      }
+      &__desc {
+        width: 80%;
+        color: $secondary;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
