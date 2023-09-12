@@ -3,7 +3,7 @@
 .container--project {
   background-image: url("/images/project.webp");
   background-repeat: no-repeat;
-  background-position: right -40% bottom 10%;
+  background-position: right -350px bottom 10%;
 }
 
 .project {
@@ -60,15 +60,48 @@
       margin-top: 25px;
     }
     &__details {
-      a {
-        color: $button;
-        font-family: "Roboto", sans-serif;
-      }
       color: $button;
       margin-top: 30px;
       font-weight: 700;
       display: flex;
       align-items: center;
+      width: 30%;
+
+      p {
+        font-family: "Roboto", sans-serif;
+      }
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .container--project {
+    background-position: right -450px bottom 10%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container--project {
+    background-image: none;
+  }
+
+  .content {
+    width: 100% !important;
+
+    &__details {
+      width: 40% !important;
+    }
+  }
+
+  .images {
+    justify-content: space-around !important;
+
+    img[src="images/line.webp"] {
+      display: none;
     }
   }
 }

@@ -41,7 +41,7 @@ export default function Project() {
             quibusdam reprehenderit a!
           </p>
           <div className="content__details" href="#latest">
-            <a href="#details">View Details</a>
+            <p href="#details">View Details</p>
             <span class="material-symbols-rounded">arrow_right_alt</span>
           </div>
         </div>

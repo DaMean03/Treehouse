@@ -53,3 +53,24 @@
     background: #da2713;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .stack {
+    flex-direction: column;
+
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .copyright {
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+
+    p {
+      flex-basis: 100%;
+      margin: 0 0 1rem 0;
+    }
+  }
+}

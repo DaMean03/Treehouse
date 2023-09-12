@@ -82,3 +82,31 @@
     @include button;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  .gear {
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .relax {
+    justify-content: center !important;
+
+    .content {
+      width: 100%;
+    }
+  }
+
+  .images {
+    justify-content: space-around !important;
+
+    img[src="images/line.webp"] {
+      display: none;
+    }
+  }
+
+  .gear {
+    display: none;
+  }
+}
